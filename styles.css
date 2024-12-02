@@ -1,0 +1,74 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #2316d4bd;
+    padding: 1px;
+    text-align: center;
+    color: white;
+}
+        
+header a{
+    text-decoration: none;
+}
+
+/* ENLACES*/
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #2e02f3;
+}
+
+/*todo formulario*/
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 45px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+/*PIE DE PAGINA*/
+footer {
+    background-color: #2316d4bd;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
